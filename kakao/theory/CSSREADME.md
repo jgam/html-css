@@ -36,4 +36,39 @@ diaplay :inline-box
 display: inline ....<span>1</span>
 
 ## Position property
+static : default place and be placed where we tell it to ex) just default 
+fixed: no matter what goes to the specific place and on top of everyone ex) help chat bot
+absolute: positioned based on relative(parent element) if not exist, then based on body ex) header menus
+relative: parent element who wants to pass on child element some positionings ex) header
 
+## flex
+flex-direction: column, column-reverse, row, row-reverse
+justify-content: center, space-between, space-around, flex-start, flex-end
+align-items: center, flex-start, flex-end
+align-self: center, flex-start, flex-end
+order: value
+flex-wrap: wrap(multiple lines), nowrap(one-line), wrap-reverse(multiple lines but reverse)
+flex-flow: row,column wrap,wrap-reverse
+
+## css selectors and pseudo selectors
+input[required="required"]{
+
+}
+.box: first-child, last-child..{}
+.box: nth-child(3n+2){}
+input > .box{}
+
+## css states
+active (when clicked)
+- .box:active{
+    background-color: green;
+}
+focus (the strongest state and it focuses when it is being clicked with background color)
+- .box:focus{
+    background-color: blue
+}
+hover (when mouse is top of it)
+- .box:hover{
+    background-color: pink;
+}
+visited
