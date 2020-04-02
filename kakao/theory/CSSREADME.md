@@ -72,3 +72,38 @@ hover (when mouse is top of it)
     background-color: pink;
 }
 visited
+
+## transitions
+transition: changeable attributes in actions, time, effect
+transition: background-color,all 5s ease-in-out;
+You should put this in the tag ex) box
+
+## transformations
+transform: action(magnitude)
+transform: rotate(20deg);
+
+## animations
+in the box you decalre: animation: 1.5s(time) scaleAndRotateSquare(the declared animation) ease-in-out(effect)
+@keyframes(tells css that i created animations) scaleSquareRotateSquare(name of the animation) {
+    from{
+        transform:none
+    }
+    to{
+        transform: rotate(1turn) scale(.5, .5);
+    }
+}
+
+One thing to note is there can be many steps, only two is: from to, but more you can give percentage. 4 steps: 0 33 66 100, 5 stesps: 0 25 50 75 100
+
+## Media queries
+different browsers for big screen and small screens
+body{
+    background-color: green;
+}
+@media screen and (min-width:320px) and (max-width:640px){
+    body{
+        background-color: blue;
+    }
+}
+
+for screen that is size between of width: 320px and 640px bgc will be blue otherwise, will be green.
