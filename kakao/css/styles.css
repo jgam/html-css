@@ -3,6 +3,8 @@
 @import './status-bar/status-bar.css';
 @import './header/header.css';
 @import './nav/nav-bar.css';
+@import './friends/friends.css';
+@import './friends/friend.css';
 
 * {
   box-sizing: border-box;
@@ -17,4 +19,5 @@ body {
 
 a {
   color: inherit;
+  text-decoration: none;
 }
