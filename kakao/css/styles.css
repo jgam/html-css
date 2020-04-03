@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;300;600&display=swap');
 @import 'reset.css';
 @import './status-bar/status-bar.css';
 @import './header/header.css';
@@ -7,6 +7,7 @@
 @import './friends/friend.css';
 @import './find/find.css';
 @import './more/more.css';
+@import './settings/settings.css';
 
 * {
   box-sizing: border-box;
