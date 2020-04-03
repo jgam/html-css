@@ -6,6 +6,7 @@
 @import './friends/friends.css';
 @import './friends/friend.css';
 @import './find/find.css';
+@import './more/more.css';
 
 * {
   box-sizing: border-box;
