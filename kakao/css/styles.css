@@ -9,6 +9,7 @@
 @import './more/more.css';
 @import './settings/settings.css';
 @import './chat/chat.css';
+@import './mobile/mobile.css';
 
 * {
   box-sizing: border-box;
