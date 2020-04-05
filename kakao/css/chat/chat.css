@@ -69,6 +69,15 @@
   outline: none;
 }
 
+.chat__icon {
+  font-size: 16px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.chat__write:focus ~ .chat__icon {
+  opacity: 0;
+}
+
 .chat-screen .chat__messages {
   border-top: 1px solid #f7f7f7;
   display: flex;
